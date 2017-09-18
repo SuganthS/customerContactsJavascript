@@ -1,0 +1,51 @@
+
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<head>
+	<title>Customer page</title>	
+	<link rel = "stylesheet" type = "text/css" href = "css/styles.css" />
+</head>
+
+<body>
+
+
+<div class="customerPageSection">
+	<div class="customerContactsListSection">
+		<span><input type="button" id="createButton" value="Create Customer"></span>
+		<ul class="customerList" id="customerList">
+			
+		</ul>
+	</div>
+
+	<div class="customerDetailsSection">
+		<form id="customerDetailsForm">
+			First Name :<input type="text" id="firstName" name="firstName"><br>
+			Last Name  :<input type="text" id="lastName"name="lastName"><br>
+			Phone Number : <input type="text" id="phoneNumber" name="phoneNumber"><br>
+			Address    :<input type="text" id="address" name="address"><br>
+			
+			<input class="updateButton" id="createCustomer" style="display:none" type="button" value="create customer"><br>
+		</form>
+	</div>
+	<div class="customerToDoListSection">
+		<div id="ToDoHead">
+			<h4>ToDoList</h4>
+			<input type="text" id="newListValue" placeholder="Create New Task">
+			<button class="addButton" id="toDoAddButton">Add</button>
+		
+		<ul id="customerToDoList">
+			
+
+		</ul>
+		<button id="toDoListUpdate">update</button>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="javascript/jsFunctions.js"></script>
+
+</body>
+
+
+</html>

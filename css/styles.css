@@ -1,0 +1,44 @@
+
+
+.customerPageSection{
+	float: left;
+	width: 100%;
+}
+
+//customerContactsListSection part 
+.customerContactsListSection{
+	float: left;
+	width: 30%;
+	background-color: yellow;
+}
+
+.customerList{
+	list-style-type: none;
+	line-height: 2; 
+	padding-top: 20px;
+}
+
+
+
+
+
+//customerDetailsSection part
+.customerDetailsSection{
+	float: left; 
+	width: 30%; 
+	line-height: 2;
+}
+
+#customerDetailsForm{
+	padding-top: 30px
+}
+
+
+
+
+
+//customerToDoListSection part
+.customerToDoListSection{
+	float: left; 
+	width: 30%;
+}
